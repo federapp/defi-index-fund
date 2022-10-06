@@ -39,5 +39,5 @@ for i in range (len(timestamp_list) - 1):
     monthly_performance.loc[len(monthly_performance.index)] = [current_timestamp,monthly_delta]
 
 # %%
-monthly_performance.to_csv('monthly_performance.csv',index=False)
+monthly_performance.to_csv('monthly_index_performance.csv',index=False)
 # %%
